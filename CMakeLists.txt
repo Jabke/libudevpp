@@ -8,7 +8,7 @@
 # Set minimum version of CMake. Since command 'project' use
 # VERSION sub-option we need 3.0.
 cmake_minimum_required(VERSION 3.3)
-
+set(CMAKE_CXX_STANDARD 14)
 
 ####
 # Set variables:
@@ -134,6 +134,6 @@ install(
 )
 
 # Finally, add the example subdirectory:
-add_subdirectory(example)
-add_subdirectory(test)
+# add_subdirectory(example)
+# add_subdirectory(test)
 
